@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  /*border: 1px solid black;*/
+  font-size: 12px;
+
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  background-image: url(https://hd.unsplash.com/photo-1454540723233-f0b9ff08b132);
+  background-size: cover;
+}
+
+
+#time {
+
+  font-size: 16em;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
