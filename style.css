@@ -1,22 +1,62 @@
 * {
   margin: 0;
   padding: 0;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   font-size: 12px;
 
 }
 
-div {
+#bg {
   display: flex;
   align-items: center;
   justify-content: center;
 
   height: 100vh;
-  background-image: url(https://hd.unsplash.com/photo-1454540723233-f0b9ff08b132);
+  background-image: url(http://i.imgur.com/X39qMYI.jpg);
   background-size: cover;
 }
 
+ul{
+	list-style-type: none;
+}
 
+h2{
+    font-size: 28px;
+    padding-bottom: 10px;
+    border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #292929;
+}
+
+a{
+  display: block;
+	text-decoration: none;
+  width:100%;
+	color: inherit;
+    font-size: 16px;
+}
+
+a:hover{
+    background-color: #0098bc;
+    transition: ease-in-out 0.2s;
+}
+
+
+.container {
+
+}
+
+.outer {
+  display: flex;
+}
+
+.inner {
+  display: inline-block;
+    vertical-align: top;
+    width: auto;
+}
+
+}
 #time {
 
   font-size: 16em;
