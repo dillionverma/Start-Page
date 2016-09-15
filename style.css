@@ -44,7 +44,7 @@ a:hover{
 }
 
 .container {
-  padding: 20px;
+  padding: 14px;
   border-right: 1px solid white;
 }
 
@@ -55,12 +55,10 @@ a:hover{
 .outer {
   background-color: rgba(0, 0, 0, 0.2);
   display: flex;
-  width
 }
 
 .inner {
   display: inline-block;
     vertical-align: top;
     width: auto;
-
 }
