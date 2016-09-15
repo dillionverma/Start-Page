@@ -1,6 +1,6 @@
 #My new tab page
 
-![alt tag](https://github.com/dillionverma/Start-Page/blob/master/screenshot.png_)
+![alt tag](https://github.com/dillionverma/Start-Page/blob/master/screenshot.png)
 
 This is my current new tab page which is customized to display all my necessary websites for school. It is way more convenient than navigating through multiple bookmarks.
 
