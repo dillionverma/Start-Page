@@ -18,7 +18,7 @@
 h1{
   font-size: 24px;
   padding: 0 10px 10px 10px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   text-align: center;
 }
 
@@ -33,19 +33,19 @@ a{
 	color: inherit;
   font-size: 14px;
   cursor: pointer;
-  border-bottom: 1px solid black;
+  /*border-bottom: 1px solid black;*/
   padding: 4px;
 }
 
 a:hover{
-  color: black;
+  /*color: black;*/
   background-color: rgba(255, 255, 255, 0.4);
   transition: ease-in-out 0.5s;
 }
 
 .container {
   padding: 20px;
-  border-right: 1px solid black;
+  border-right: 1px solid white;
 }
 
 .container:last-of-type {
