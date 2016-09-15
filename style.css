@@ -1,9 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid black;
-  font-size: 12px;
-
+  font-family: 'Open Sans', sans-serif;
+  color: white;
 }
 
 #bg {
@@ -12,54 +11,56 @@
   justify-content: center;
 
   height: 100vh;
-  background-image: url(http://i.imgur.com/X39qMYI.jpg);
+  background-image: url(http://static.tumblr.com/a7f0d449cf9d1e9a47a64306e50fac32/izi7nlk/3S6mxuo9w/tumblr_static_summer_sunset_created_by_-_marilou.png);
   background-size: cover;
+}
+
+h1{
+  font-size: 24px;
+  padding: 0 10px 10px 10px;
+  border-bottom: 1px solid black;
+  text-align: center;
 }
 
 ul{
 	list-style-type: none;
 }
 
-h2{
-    font-size: 28px;
-    padding-bottom: 10px;
-    border-bottom: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #292929;
-}
-
 a{
   display: block;
 	text-decoration: none;
-  width:100%;
+  text-align: center;
 	color: inherit;
-    font-size: 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  padding: 4px;
 }
 
 a:hover{
-    background-color: #0098bc;
-    transition: ease-in-out 0.2s;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: ease-in-out 0.5s;
 }
 
-
 .container {
+  padding: 20px;
+  border-right: 1px solid black;
+}
 
+.container:last-of-type {
+  border: none;
 }
 
 .outer {
+  background-color: rgba(0, 0, 0, 0.2);
   display: flex;
+  width
 }
 
 .inner {
   display: inline-block;
     vertical-align: top;
     width: auto;
-}
 
-}
-#time {
-
-  font-size: 16em;
-  font-family: 'Open Sans', sans-serif;
-  color: white;
 }
