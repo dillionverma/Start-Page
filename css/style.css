@@ -55,7 +55,11 @@ li a:hover{
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+#credits {
+  font-size: 8px;
+  text-align: center;
 
+}
 #footer {
   text-align: center;
   padding: 20px 0 0 0;
