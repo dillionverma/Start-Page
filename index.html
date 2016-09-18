@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
 
     <title>Start Page</title>
@@ -10,119 +14,111 @@
   </head>
   <body>
 
-    <div id="bg">
-    <!--  <p id="temp"></p>-->
-      <div class="outer">
-        <div class="container">
-          <div class="inner">
-            <h1>Waterloo</h1>
-            <ul>
-              <li><a href="https://quest.pecs.uwaterloo.ca/psp/SS/">Quest</a></li>
-              <li><a href="https://uwportal.uwaterloo.ca/">Portal</a></li>
-              <li><a href="https://www.watcard.uwaterloo.ca/index.html">Watcard</a></li>
-              <li><a href="https://rezwelcome.uwaterloo.ca/">Res</a></li>
-              <li><a href="https://portal.office.com/">Office 365 (mail)</a></li>
-              <li><a href="https://odyssey.uwaterloo.ca/teaching/schedule">Odyssey (Exams)</a></li>
+    <div class="container">
+	     <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+          <!-- Nav tabs -->
+          <div class="card">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                <li role="presentation"><a href="#waterloo" aria-controls="waterloo" role="tab" data-toggle="tab">Waterloo</a></li>
+                <li role="presentation"><a href="#laurier" aria-controls="laurier" role="tab" data-toggle="tab">Laurier</a></li>
+                <li role="presentation"><a href="#math135" aria-controls="math135" role="tab" data-toggle="tab">Math 135</a></li>
+                <li role="presentation"><a href="#math137" aria-controls="math137" role="tab" data-toggle="tab">Math 137</a></li>
+                <li role="presentation"><a href="#cs135" aria-controls="cs135" role="tab" data-toggle="tab">CS 135</a></li>
+                <li role="presentation"><a href="#cs115" aria-controls="cs115" role="tab" data-toggle="tab">CS 115</a></li>
+                <li role="presentation"><a href="#bus111" aria-controls="bus111" role="tab" data-toggle="tab">BUS 111</a></li>
+                <li role="presentation"><a href="#econ120" aria-controls="econ120" role="tab" data-toggle="tab">ECON 120</a></li>
             </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">
+                  <p>Hi Double Degree Students! Welcome to your NEW start page.</p>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <iframe class="center-block" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=plh3o73qsd4l98kr80bedjn2rc%40group.calendar.google.com&amp;color=%232F6309&amp;src=jj2g9aeb2qklss38pe038jutj0%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FToronto" style="border-width:0" width="400" height="300" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="waterloo">
+                  <ul>
+                    <li><a href="https://quest.pecs.uwaterloo.ca/psp/SS/">Quest</a></li>
+                    <li><a href="https://uwportal.uwaterloo.ca/">Portal</a></li>
+                    <li><a href="https://www.watcard.uwaterloo.ca/index.html">Watcard</a></li>
+                    <li><a href="https://rezwelcome.uwaterloo.ca/">Res</a></li>
+                    <li><a href="https://portal.office.com/">Office 365 (mail)</a></li>
+                    <li><a href="https://odyssey.uwaterloo.ca/teaching/schedule">Odyssey (Exams)</a></li>
+                  </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="laurier">
+                  <ul>
+                    <li><a href="https://loris.wlu.ca">Loris</a></li>
+                    <li><a href="https://g.mylaurier.ca/">MyLaurier (mail)</a></li>
+                  </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="math135">
+                  <ul>
+                    <li><a href="https://learn.uwaterloo.ca/d2l/le/content/273105/viewContent/1568252/View?ou=273105">Reading Schedule</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="https://learn.uwaterloo.ca/d2l/home/273105">Learn</a></li>
+                    <li><a href="https://piazza.com/class/irfjpkwgmss4ez">Piazza</a></li>
+                    <li><a href="http://www.cemc.uwaterloo.ca/~cbruni/pdfs/Math135SeptDec2016/syllabus.pdf">Syllabus</a></li>
+                    <li><a href="http://www.cemc.uwaterloo.ca/~cbruni/pdfs/Math135SeptDec2015/RDW_1.pdf">Textbook</a></li>
+                    <li><a href="https://portal.office.com/">Crowdmark (Check email)</a></li>
+                  </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="math137">
+                  <ul>
+                    <li><a href="https://learn.uwaterloo.ca/d2l/le/content/276963/viewContent/1595425/View?ou=276963">Reading Schedule</a></li>
+                  </ul>
+                    <ul>
+                      <li><a href="https://learn.uwaterloo.ca/d2l/home/276963">Learn</a></li>
+                      <li><a href="https://thepiratebay.org/torrent/12312590/Calculus_-_Early_Transcendentals_-_8th_Edition_(2015).pdf_Gooner">Textbook</a></li>
+                      <li><a href="#">Syllabus</a></li>
+                      <li><a href="https://portal.office.com/">Crowdmark (Check email)</a></li>
+                    </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="cs135">
+                  <ul>
+                    <li><a href="https://www.student.cs.uwaterloo.ca/~cs135/calendar">Reading Schedule</a></li>
+                  </ul>
+                    <ul>
+                      <li><a href="https://www.student.cs.uwaterloo.ca/~cs135/">Website</a></li>
+                      <li><a href="https://learn.uwaterloo.ca/d2l/home/272999">Learn</a></li>
+                      <li><a href="https://piazza.com/class/ist76n3d4ik2ev">Piazza</a></li>
+                      <li><a href="http://htdp.org/">Textbook</a></li>
+                      <li><a href="https://markus.student.cs.uwaterloo.ca/markus_cs135_f/en/assignments">Markus</a></li>
+                    </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="cs115">
+                  <ul>
+                    <li><a href="https://www.student.cs.uwaterloo.ca/~cs115/">Website</a></li>
+                    <li><a href="http://htdp.org/">Textbook</a></li>
+                    <li><a href="https://markus.student.cs.uwaterloo.ca/markus_cs115_f/en/assignments?locale=en">Markus</a></li>
+                  </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="bus111">
+                  <ul>
+                    <li><a href="http://laurierbiz.com">Website</a></li>
+                    <li><a href="https://mylearningspace.wlu.ca/d2l/home/165082">My Learning Space</a></li>
+                    <li><a href="https://portal.mypearson.com/">Pearson</a></li>
+                    <li><a href="http://turnitin.com/">TurnItIn</a></li>
+                  </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="econ120">
+                  <ul>
+                    <li><a href="https://mylearningspace.wlu.ca/d2l/home/195199">My Learning Space</a></li>
+                    <li><a href="https://myhome.nelsonbrain.com/cb/dashboard.htm">Nelson/Aplia</a></li>
+                  </ul>
+                </div>
+            </div>
           </div>
-        </div>
-
-        <div class="container">
-          <div class="inner">
-            <h1>Laurier</h1>
-            <ul>
-              <li><a href="https://loris.wlu.ca">Loris</a></li>
-              <li><a href="https://g.mylaurier.ca/">MyLaurier (mail)</a></li>
-            </ul>
           </div>
-        </div>
-
-        <div class="container">
-          <div class="inner">
-            <h1>Math 135</h1>
-              <ul>
-                <li><a href="https://learn.uwaterloo.ca/d2l/le/content/273105/viewContent/1568252/View?ou=273105">Reading Schedule</a></li>
-              </ul>
-              <ul>
-                <li><a href="https://learn.uwaterloo.ca/d2l/home/273105">Learn</a></li>
-                <li><a href="https://piazza.com/class/irfjpkwgmss4ez">Piazza</a></li>
-                <li><a href="http://www.cemc.uwaterloo.ca/~cbruni/pdfs/Math135SeptDec2016/syllabus.pdf">Syllabus</a></li>
-                <li><a href="http://www.cemc.uwaterloo.ca/~cbruni/pdfs/Math135SeptDec2015/RDW_1.pdf">Textbook</a></li>
-                <li><a href="https://portal.office.com/">Crowdmark (Check email)</a></li>
-              </ul>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="inner">
-            <h1>Math 137</h1>
-            <ul>
-              <li><a href="https://learn.uwaterloo.ca/d2l/le/content/276963/viewContent/1595425/View?ou=276963">Reading Schedule</a></li>
-            </ul>
-              <ul>
-                <li><a href="https://learn.uwaterloo.ca/d2l/home/276963">Learn</a></li>
-                <li><a href="https://thepiratebay.org/torrent/12312590/Calculus_-_Early_Transcendentals_-_8th_Edition_(2015).pdf_Gooner">Textbook</a></li>
-                <li><a href="#">Syllabus</a></li>
-                <li><a href="https://portal.office.com/">Crowdmark (Check email)</a></li>
-              </ul>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="inner">
-            <h1>CS 135</h1>
-            <ul>
-              <li><a href="https://www.student.cs.uwaterloo.ca/~cs135/calendar">Reading Schedule</a></li>
-            </ul>
-              <ul>
-                <li><a href="https://www.student.cs.uwaterloo.ca/~cs135/">Website</a></li>
-                <li><a href="https://learn.uwaterloo.ca/d2l/home/272999">Learn</a></li>
-                <li><a href="https://piazza.com/class/ist76n3d4ik2ev">Piazza</a></li>
-                <li><a href="http://htdp.org/">Textbook</a></li>
-                <li><a href="https://markus.student.cs.uwaterloo.ca/markus_cs135_f/en/assignments">Markus</a></li>
-              </ul>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="inner">
-            <h1>CS 115</h1>
-              <ul>
-                <li><a href="https://www.student.cs.uwaterloo.ca/~cs115/">Website</a></li>
-                <li><a href="http://htdp.org/">Textbook</a></li>
-                <li><a href="https://markus.student.cs.uwaterloo.ca/markus_cs115_f/en/assignments?locale=en">Markus</a></li>
-              </ul>
-          </div>
-        </div>
-
-
-        <div class="container">
-          <div class="inner">
-            <h1>BUS 111</h1>
-              <ul>
-                <li><a href="http://laurierbiz.com">Website</a></li>
-                <li><a href="https://mylearningspace.wlu.ca/d2l/home/165082">My Learning Space</a></li>
-                <li><a href="https://portal.mypearson.com/">Pearson</a></li>
-                <li><a href="http://turnitin.com/">TurnItIn</a></li>
-              </ul>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="inner">
-            <h1>ECON 120</h1>
-              <ul>
-                <li><a href="https://mylearningspace.wlu.ca/d2l/home/195199">My Learning Space</a></li>
-                <li><a href="https://myhome.nelsonbrain.com/cb/dashboard.htm">Nelson/Aplia</a></li>
-              </ul>
-          </div>
-        </div>
-
-
+	      </div>
       </div>
-      <iframe id="cal" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=plh3o73qsd4l98kr80bedjn2rc%40group.calendar.google.com&amp;color=%232F6309&amp;src=jj2g9aeb2qklss38pe038jutj0%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FToronto" style="border-width:0" width="400" height="300" frameborder="0" scrolling="no"></iframe>
-    </div>
-
+      </div>
 
 
 
