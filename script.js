@@ -41,6 +41,13 @@ function loadStuff() {
 }
 
 
+/*$.ajax({
+  url: 'https://api.uwaterloo.ca/v2/weather/current.json?key=2aaaac9cccd4c11b35804ecac922e59e',
+  type: 'GET',
+  success: function(response){
+    $('#temp').text(response.data.temperature_current_c);
+  }
+});*/
 
   startTime();
   loadStuff();
