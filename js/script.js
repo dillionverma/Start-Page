@@ -14,7 +14,7 @@ function startTime() {
   hour = hour ? hour : 12;
   mins = mins < 10 ? '0' + mins : mins;
   secs = secs < 10 ? '0' + secs : secs;
-  var timeString = hour + ':' + mins + ' ' + ampm;
+  var timeString = hour + ':' + mins + ':' + secs + ' ' + ampm;
   var dateString = day + ' ' + month + ' ' + date + ', ' + year;
   document.getElementById('time').innerHTML = timeString;
   document.getElementById('date').innerHTML = dateString;

@@ -53,7 +53,15 @@ li a:hover{
 #title {
   text-align: center;
   margin: 0 0 20px 0;
+}
 
+#date {
+  text-align: center;
+  font-size: 20px;
+}
+
+#time {
+    text-align: center;
 }
 
 #footer {
