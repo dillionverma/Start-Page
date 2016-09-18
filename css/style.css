@@ -34,6 +34,7 @@ li a:hover{
 
 .data {
   font-weight: bold;
+  text-align: center;
 }
 
 .responsiveCal {
@@ -55,20 +56,11 @@ li a:hover{
   margin: 0 0 10px 0;
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-
-}
-
-#date, #time {
-  text-align: center;
 }
 
 #footer {
   text-align: center;
   padding: 20px 0 0 0;
-}
-
-.col-md-offset-right-2 {
-    margin-right: 16.66666667%;
 }
 
 .tab-content li a{
