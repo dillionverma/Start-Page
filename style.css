@@ -1,10 +1,10 @@
 body {
-  padding: 100px 20px 0 20px;
+  padding: 80px 0 0 0;
   height: 100vh;
   background-image: url(http://i.imgur.com/X39qMYI.jpg);
   background-size: cover;
   background-position:center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   font-family: 'Open Sans', sans-serif;
 }
 
