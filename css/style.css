@@ -49,6 +49,20 @@ li a:hover{
   width: 100%;
   height: 100%;
 }
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 #title {
   text-align: center;
   margin: 0 0 10px 0;
