@@ -66,15 +66,15 @@ ul{
   padding: 0;
 }
 
-li a {
+ul li a {
     display: block;
     padding: 4px;
     font-size: 12px;
+    text-align: center;
 }
 
 a {
 	text-decoration: none !important;
-  text-align: center;
 	color: inherit;
   cursor: pointer;
 }
