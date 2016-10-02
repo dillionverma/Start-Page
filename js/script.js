@@ -22,6 +22,18 @@ function startTime() {
 }
 
 
+var scratch = document.getElementById('scratchpad');
+scratch.addEventListener('keyup', function() {
+    var content = scratch.innerHTML.trim();
+    localStorage.setItem('scratchpad', content);
+});
+var content = localStorage.getItem('scratchpad');
+if(content == '' || content == null) {
+    content = 'Write some notes here...';
+}
+scratch.innerHTML = content;
+
+
 function loadStuff() {
   Mousetrap.bind('g', function() {
     window.open("http://www.google.ca","_self")

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <title>Start Page</title>
 
@@ -13,6 +14,16 @@
   <body>
 
     <div class="container">
+      <!-- <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="panel panel-default animated fadeInDown">
+             <div class="panel-body">
+                <h1 id="jumbo">University Start Page</h1>
+             </div>
+          </div>
+        </div>
+      </div> -->
+
 	     <div class="row">
          <div class="col-md-2">
            <div class="panel panel-default animated fadeInLeft">
@@ -30,12 +41,19 @@
                 <p id="credits"><a id="credits" href="https://github.com/uWaterloo/api-documentation/blob/master/v2/weather/current.md">Source</a></p>
               </div>
            </div>
+           <div class="panel panel-default animated fadeInLeft">
+              <div class="panel-body">
+                <h3 id="title">Course Notes</h2>
+                <p><a style="font-size: 16px;"href="https://1drv.ms/o/s!AoOfqpvM_BtyixuizaYOVTZabNMW">Econ 120</a></p>
+              </div>
+           </div>
          </div>
           <div class="col-md-8">
           <!-- Nav tabs -->
           <div class="card animated fadeInUp">
             <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                <!-- <li role="presentation"><a href="#notes" aria-controls="notes" role="tab" data-toggle="tab">Notes</a></li> -->
                 <li role="presentation"><a href="#waterloo" aria-controls="waterloo" role="tab" data-toggle="tab">Waterloo</a></li>
                 <li role="presentation"><a href="#laurier" aria-controls="laurier" role="tab" data-toggle="tab">Laurier</a></li>
                 <li role="presentation"><a href="#math135" aria-controls="math135" role="tab" data-toggle="tab">Math 135</a></li>
@@ -49,25 +67,23 @@
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="home">
                   <h1 id="title">University Start Page</h1>
-
-                  <p>Hi Double Degree Students!</p>
+                  <h2>To-do:</h2>
+                  <div id="scratchpad" contenteditable="true">
+                    Write some notes...
+                  </div>
                   <br>
-                  <p><a style="font-size: 20px;"href="https://1drv.ms/o/s!AoOfqpvM_BtyixuizaYOVTZabNMW">Econ 120 Chapter notes</a></p>
-                  <br>
-                  <p>
-                    How to get chrome extension:
-                    <ol>
-                      <li><a href="https://github.com/dillionverma/Start-Page/raw/master/Start-Page.crx">Download Chrome Extension!</a></li>
-                      <li>Open settings > extensions in chrome</li>
-                      <li>Drag and drop .crx file onto the page</li>
-                    </ol>
-                  </p>
                   <br>
                   <div class="responsiveCal">
                     <iframe class="center-block" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=plh3o73qsd4l98kr80bedjn2rc%40group.calendar.google.com&amp;color=%232F6309&amp;src=jj2g9aeb2qklss38pe038jutj0%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FToronto" style="border-width:0" width="400" height="300" frameborder="0" scrolling="no"></iframe>
                   </div>
                   <p id="footer">Developed by <a href= "https://twitter.com/dillionverma">Dillion Verma</a></p>
                 </div>
+
+                <!-- <div role="tabpanel" class="tab-pane" id="notes">
+                  <div id="scratchpad" contenteditable="true">
+                    Write some notes...
+                  </div>
+                </div> -->
                 <div role="tabpanel" class="tab-pane" id="waterloo">
                   <ul>
                     <li><a href="https://quest.pecs.uwaterloo.ca/psp/SS/">Quest</a></li>
@@ -158,6 +174,18 @@
                  </div>
                </div>
             </div>
+            <div class="panel panel-default animated fadeInRight">
+              <div class="panel-body">
+                <h2 id="title">Chrome Extension</h2>
+                  <ol>
+                    <li><a href="https://github.com/dillionverma/Start-Page/raw/master/Start-Page.crx">Download Chrome Extension!</a></li>
+                    <li>Open settings > extensions in chrome</li>
+                    <li>Drag and drop .crx file onto the page</li>
+                  </ol>
+                <div>
+            </div>
+
+
           </div>
 	      </div>
       </div>
