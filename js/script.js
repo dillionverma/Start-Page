@@ -64,6 +64,21 @@ $( document ).ready(function() {
       $('#tempLow').text(response.data.temperature_24hr_min_c);
     }
   });
+
+  $('.nav-tabs li a').on('click', function(){
+    $('.nav-content active').removeClass('active');
+    $(this).addClass('active');
+  });
+
+  $(document).on('click', '#new', function() {
+      var course_name = prompt("Please enter course name", "eg: Math 135");
+      course_name_s = course_name;
+      course_name = course_name.replace(/\s+/g, '');
+      $('.nav-tabs').children().last().remove();
+      $('.nav-tabs').append('<li role="presentation"><a href="#' + course_name + '" aria-controls="' + course_name + '" role="tab" data-toggle="tab">' + course_name_s + '</a></li>');
+      $('.nav-tabs').append('<li role="presentation"><a href="#new" id="new" aria-controls="new" role="tab" data-toggle="tab" onclick="newCourse()">new</a></li>');
+      $('.tab-content').append('<div role="tabpanel" class="tab-pane" id="' + course_name + '"><p>'+ course_name_s + '</p></div>');
+    });
 });
 
 
