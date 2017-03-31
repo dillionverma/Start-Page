@@ -1,4 +1,4 @@
-#University Start Page
+# University Start Page
 
 ![alt tag](https://github.com/dillionverma/Start-Page/blob/master/screenshot.png)
 
